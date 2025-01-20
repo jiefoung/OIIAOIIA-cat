@@ -66,7 +66,7 @@ python OIIAOIIA.py
 
 ---
 
-### **重要**
+## 重要
 1. 下載zip壓縮檔後，先打開裡面的OIIAOIIA frames.zip
 2. 在桌面上或是你記得的地方創建OIIAOIIA frames資料夾
 3. 打開主要OIIAOIIA cat程式，確認裡面程式檔案的路徑是否有對應到
