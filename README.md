@@ -71,7 +71,8 @@ python OIIAOIIA.py
 2. 在桌面上或是你記得的地方創建OIIAOIIA frames資料夾
 3. 打開主要OIIAOIIA cat程式，確認裡面程式檔案的路徑是否有對應到
 
-例如放在桌面，檔案路徑應對應到C:\Users\User\Desktop
+- 例如放在桌面，檔案路徑應對應到C:\Users\User\Desktop
+
 ```sh
  frames_dir = r"C:\Users\User\Desktop\OIIAOIIA frames"
  sound_path = r"C:\Users\User\Desktop\OIIAOIIA frames\soundpack.mp3"
