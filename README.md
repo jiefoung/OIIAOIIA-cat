@@ -31,7 +31,6 @@ pip install pygame
 
 請確保下列檔案和資料夾存在：
 
-- 影片檔案：`videoplayback.mp4`
 - 音效檔案：`sound.mp3`(放在OIIAOIIA frames資料夾裡面)
 - 影格資料夾：`OIIAOIIA frames/`（解壓縮圖片檔案後，請創立一個資料夾命名為OIIAOIIA frames）
 
