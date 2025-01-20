@@ -32,8 +32,8 @@ pip install pygame
 請確保下列檔案和資料夾存在：
 
 - 影片檔案：`videoplayback.mp4`
-- 音效檔案：`sound.mp3`
-- 影格資料夾：`OIIAOIIA frames/`（包含擷取的圖片）
+- 音效檔案：`sound.mp3`(放在OIIAOIIA frames資料夾裡面)
+- 影格資料夾：`OIIAOIIA frames/`（解壓縮圖片檔案後，請創立一個資料夾命名為OIIAOIIA frames）
 
 ### **步驟 2：執行程式**
 
@@ -65,6 +65,18 @@ python OIIAOIIA.py
 - **音效播放**：當貓咪開始旋轉時播放音效，放開按鍵時停止播放。
 
 ---
+
+### **重要**
+1. 下載zip壓縮檔後，先打開裡面的OIIAOIIA frames.zip
+2. 在桌面上或是你記得的地方創建OIIAOIIA frames資料夾
+3. 打開主要OIIAOIIA cat程式，確認裡面程式檔案的路徑是否有對應到
+
+例如放在桌面，檔案路徑應對應到C:\Users\User\Desktop
+frames_dir = r"C:\Users\User\Desktop\OIIAOIIA frames"
+sound_path = r"C:\Users\User\Desktop\OIIAOIIA frames\soundpack.mp3"
+   
+4. 安裝上面所提到的pygame套件
+5. 若以上步驟都有進行，即可進行遊戲。
 
 ## 未來改進方向
 - **新增 UI 介面**。
