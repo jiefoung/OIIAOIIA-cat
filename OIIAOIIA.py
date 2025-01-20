@@ -3,7 +3,6 @@ import os
 import re
 
 # 設定影片路徑與幀數儲存路徑
-video_path = r"C:\Users\User\Desktop\程式\python\OIIAOIIA cat\videoplayback.mp4"
 frames_dir = r"C:\Users\User\Desktop\OIIAOIIA frames"
 sound_path = r"C:\Users\User\Desktop\OIIAOIIA frames\soundpack.mp3"
 
