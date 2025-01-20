@@ -1,4 +1,3 @@
-import pygame
 import os
 import shutil
 import cv2
