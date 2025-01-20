@@ -74,5 +74,5 @@ python OIIAOIIA.py
 
 ## 聯絡資訊
 
-如果有任何問題或改進建議，請聯絡ig:jiefoung。
+如果有任何問題或改進建議，請聯絡ig : jiefoung。
 
