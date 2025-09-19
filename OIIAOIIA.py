@@ -1,10 +1,11 @@
 import pygame
 import os
 import re
+import random
 
 # 設定影片路徑與幀數儲存路徑
-frames_dir = r"C:\Users\User\Desktop\OIIAOIIA frames"
-sound_path = r"C:\Users\User\Desktop\OIIAOIIA frames\soundpack.mp3"
+frames_dir = r"D:\projects\OIIAOIIA-cat\OIIAI_frames"
+sound_path = r"D:\projects\OIIAOIIA-cat\OIIAI_frames\soundpack.mp3"
 
 
 # 確保幀數資料夾存在
@@ -104,10 +105,15 @@ while running:
     if playing_animation and image_frames:
         frame_image = image_frames[current_frame % len(image_frames)]
         current_frame += 1
+    
+        # 加入震動效果
+        shake_x = random.randint(-10, 10)  # 左右晃動
+        shake_y = random.randint(-10, 10)  # 上下晃動
     else:
         frame_image = static_image
+        shake_x, shake_y = 0, 0
 
-    rect = frame_image.get_rect(center=(WIDTH // 2, HEIGHT // 2))
+    rect = frame_image.get_rect(center=(WIDTH // 2 + shake_x, HEIGHT // 2 + shake_y))
     screen.blit(frame_image, rect.topleft)
 
     pygame.display.flip()
